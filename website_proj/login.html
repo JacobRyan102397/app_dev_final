@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="Login">
+    <header>
+        <a href="index.html" class="logo">Full PC Alchemist</a>
+        <nav>
+            <ul>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="login-container">
+        <h2>Log In</h2>
+        <form>
+            <input type="text" placeholder="Phone number / Username / Email">
+            <input type="password" placeholder="Password">
+            <button type="submit">LOG IN</button>
+        </form>
+        <div class="other-options">
+            <p><a href="#">Forgot Password</a></p> 
+            <p><a href="#">Log In with Phone Number</a></p>
+            <p>OR</p>
+            <button class="social-button facebook">Facebook</button>
+            <button class="social-button google">Google</button>
+        </div>
+        <p>Not registered yet? <a href="register.html">Create an account</a></p> 
+    </div>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ShopEasy. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
